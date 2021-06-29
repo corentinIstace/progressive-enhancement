@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(49, 47, 47);
+    font-size: 1.2em;
+    width: 90%;
+    margin: auto;
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+}
+header h1{
+    background-color: yellow;
+}
+a{
+    text-decoration: underline;
+    color: rgb(49, 47, 47);
+}
+a:hover{
+    text-decoration: none;
+    color: gray;
+}
+a:visited{
+    text-decoration: none;
+    color: gray;
+}
+q{
+    font-size: 160%;
+    background-color: grey;
+    padding-left: 30px;
+    font-style: italic;
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.farmer{
+    border-left: 3px green solid;
+}
+.voisin{
+    border-left: 3px red solid;
+}
+.redWord{
+    color: red;
+    text-transform: uppercase;
+}
+.greenWord{
+    color: green;
+    text-transform: uppercase;
+
+}
+table, td, tr{
+    border-collapse: collapse;
+    border: black solid 3px;
+    padding: 10px 10px 10px 10px;
+}
+tr {
+    background-color: #505352;
+}
+blockquote > p:first-child{
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+img{
+    float: right;
+    margin: 40px;
+}
+
+
